@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockey</title>
+    <!-- daisyUi component -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- added the manrope font link -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+<!-- font awesome -->
+<script src="https://kit.fontawesome.com/a1e54c3d7a.js" crossorigin="anonymous"></script>
+<style>
+    .font-manrope{
+        font-family: "Manrope", sans-serif;
+    }
+    .btn {
+            background-color: #FF4240;
+            color: #fff; /* Text color for better visibility */
+        }
+</style>
+
+</head>
+<body class="font-manrope">
+    <header class="md:container mx-auto">
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start flex-1">
+                  <div class="dropdown ">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-base">
+                        <li><a>Home</a></li>
+                      
+                        <li><a>About</a></li>
+                        <li><a>Page</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                  </div>
+                  <a class=" text-5xl">Hockey <span class="text-orange-600">’</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                      
+                    <li><a>About</a></li>
+                    <li><a>Page</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact</a></li>
+                    
+                  </ul>
+                </div>
+                <div class="navbar-end w-auto">
+                  <a class="btn btn-error text-white">Get Ticket</a>
+                </div>
+              </div>
+        </nav>
+        <!-- slider -->
+        <div class="carousel w-full">
+            <div id="slide1" class="carousel-item relative w-full">
+              <img src="Images/1.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide2" class="carousel-item relative w-full">
+              <img src="Images/1.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide3" class="carousel-item relative w-full">
+              <img src="Images/1.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide4" class="carousel-item relative w-full">
+              <img src="Images/1.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class=" btn btn-circle">❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+          </div>
+  
+        
+
+    </header>
+    <main class="md:container mx-auto">
+        <section class="my-20 justify-items-center">
+            <div>
+                <h2 class="text-4xl font-extrabold text-center">Professional Hockeys Club</h2>
+                <p>Welcome to our Professional Hockey Club, where passion meets precision on the ice. As a premier destination for hockey enthusiasts, we take pride in fostering a culture of excellence and teamwork.</p>
+
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-4  my-10 justify-items-center items-center">
+                <div class="items-center">
+                    <div class="radial-progress text-orange-600  " style="--value:87;" role="progressbar">87%</div>
+                    <h2 class="text-3xl font-medium text-center">prayer facilities</h2>
+                    <p>Ensuring a sense of inclusivity and spiritual well-being, our establishment is dedicated to providing convenient and comfortable prayer facilities for individuals of all faiths</p>
+                </div>
+             <div>
+                <div class="items-center">
+                    <div class="radial-progress text-green-500" style="--value:95;" role="progressbar">95%</div>
+                    <h2 class="text-3xl font-medium text-center">prayer facilities</h2>
+                    <p>Ensuring a sense of inclusivity and spiritual well-being, our establishment is dedicated to providing convenient and comfortable prayer facilities for individuals of all faiths</p>
+                </div>
+             </div>  
+                <div class="items-center">
+                    <div class="radial-progress text-yellow-500" style="--value:90;" role="progressbar">90%</div>
+                    <h2 class="text-3xl font-medium text-center">prayer facilities</h2>
+                    <p>Ensuring a sense of inclusivity and spiritual well-being, our establishment is dedicated to providing convenient and comfortable prayer facilities for individuals of all faiths</p>
+                </div>
+                <div class="items-center">
+                    <div class="radial-progress text-blue-500" style="--value:80;" role="progressbar">80%</div>
+                    <h2 class="text-3xl font-medium text-center">prayer facilities</h2>
+                    <p>Ensuring a sense of inclusivity and spiritual well-being, our establishment is dedicated to providing convenient and comfortable prayer facilities for individuals of all faiths</p>
+                </div>
+             </div>  
+                
+                    
+             </div>  
+
+
+
+
+        </section>
+        <!-- program section -->
+        <section class="my-24">
+            <div class="items-center text-center">
+                <h2 class="text-4xl font-extrabold">Program Sections</h2>
+                <p class="mx-auto">
+                    Explore our diverse program offerings that cater to all interests and ages. From skill-building workshops to exciting events,
+                    there's something for everyone to engage, learn, and enjoy in our vibrant community programs.
+                </p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 min-h-screen my-10">
+                    <!-- First Hero -->
+                    <div class="hero h-96 md:h-full" style="background-image: url(/Images/2.png); background-size: cover;">
+                        <div class="hero-overlay bg-opacity-60"></div>
+                        <div class="hero-content text-center text-neutral-content max-w-md mx-auto">
+                            <h1 class="mb-5 text-5xl font-bold">Junior Program</h1>
+                            <p class="mb-5">Exciting adventures await in our Junior Program, fostering a love for learning in a vibrant and supportive environment</p>
+                            <button class="btn btn-primary">Register Now!</button>
+                        </div>
+                    </div>
+                
+                    <!-- Second Hero -->
+                    <div class="hero h-96 md:h-full" style="background-image: url(/Images/3.png); background-size: cover;">
+                        <div class="hero-overlay bg-opacity-60"></div>
+                        <div class="hero-content text-center text-neutral-content max-w-md mx-auto">
+                            <h1 class="mb-5 text-5xl font-bold">Teenager Program</h1>
+                            <p class="mb-5">Empower teenagers to explore, learn, and grow through dynamic activities and skill-building opportunities.</p>
+                            <button class="btn btn-primary">Register Now!</button>
+                        </div>
+                    </div>
+                
+                    <!-- Third Hero (spans two columns on medium screens and above) -->
+                    <div class="hero h-96 md:h-full md:col-span-2" style="background-image: url(/Images/4.png); background-size: cover;">
+                        <div class="hero-overlay bg-opacity-60"></div>
+                        <div class="hero-content text-center text-neutral-content max-w-md mx-auto">
+                            <h1 class="mb-5 text-5xl font-bold">Professional Program</h1>
+                            <p class="mb-5">Elevate your skills and career with our Professional Program, offering advanced training and valuable industry insights</p>
+                            <button class="btn btn-primary">Register Now!</button>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+            
+            
+            
+        </section>
+        <!-- card section -->
+        <div class="stats shadow">
+
+            <!-- Starred -->
+            <div class="stat">
+              <div class="stat-figure text-yellow-500">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-8 h-8 stroke-current">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2c-.3 0-.5.1-.7.3L2 12l9.3 9.3c.2.2.4.3.7.3s.5-.1.7-.3L22 12 12.7 2.7c-.2-.2-.4-.3-.7-.3z"></path>
+                </svg>
+              </div>
+              <div class="stat-title">Starred</div>
+              <div class="stat-value text-yellow-500">8.9K</div>
+              <div class="stat-desc">15% more than last month</div>
+            </div>
+          
+            <!-- Love -->
+            <div class="stat">
+              <div class="stat-figure text-red-500">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-8 h-8 stroke-current">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                </svg>
+              </div>
+              <div class="stat-title">Love</div>
+              <div class="stat-value text-red-500">25.6K</div>
+              <div class="stat-desc">21% more than last month</div>
+            </div>
+          
+            <!-- Custom Card -->
+            <div class="stats shadow">
+
+                <!-- Starred -->
+                <div class="stat bg-white p-4 rounded-md">
+                  <div class="flex items-center justify-between mb-4">
+                    <div class="flex items-center">
+                      <div class="stat-figure text-yellow-500">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-8 h-8 stroke-current">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2c-.3 0-.5.1-.7.3L2 12l9.3 9.3c.2.2.4.3.7.3s.5-.1.7-.3L22 12 12.7 2.7c-.2-.2-.4-.3-.7-.3z"></path>
+                        </svg>
+                      </div>
+                      <div class="ml-2">
+                        <div class="stat-title">Starred</div>
+                        <div class="stat-value text-yellow-500">8.9K</div>
+                      </div>
+                    </div>
+                    <div class="flex items-center">
+                      <div class="stat-figure text-red-500">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-8 h-8 stroke-current">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                        </svg>
+                      </div>
+                      <div class="ml-2">
+                        <div class="stat-title">Love</div>
+                        <div class="stat-value text-red-500">25.6K</div>
+                      </div>
+                    </div>
+                  </div>
+              
+                  <!-- Product Card -->
+                  <div class="flex items-center">
+                    <div class="w-24 h-16 bg-gray-300 rounded-md mr-4">
+                      <!-- Product Image -->
+                      <img src="your_image_url.jpg" alt="Product Image" class="w-full h-full object-cover rounded-md">
+                    </div>
+                    <div>
+                      <!-- Product Details -->
+                      <div class="text-lg font-bold mb-2">Product Title</div>
+                      <div class="text-sm text-gray-600">A brief description of the product. Highlight its features and benefits.</div>
+                      <div class="mt-2 text-green-500">$49.99</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+          
+
+    </main>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
