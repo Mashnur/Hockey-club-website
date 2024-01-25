@@ -147,7 +147,7 @@
                     <!-- First Hero -->
                     <div class="hero h-96 md:h-full" style="background-image: url(/Images/2.png); background-size: cover;">
                         <div class="hero-overlay bg-opacity-60"></div>
-                        <div class="hero-content text-center text-neutral-content max-w-md mx-auto">
+                        <div class="hero-content text-center text-neutral-content  max-w-md mx-auto">
                             <h1 class="mb-5 text-5xl font-bold">Junior Program</h1>
                             <p class="mb-5">Exciting adventures await in our Junior Program, fostering a love for learning in a vibrant and supportive environment</p>
                             <button class="btn btn-primary">Register Now!</button>
@@ -182,79 +182,263 @@
             
         </section>
         <!-- card section -->
-        <div class="stats shadow">
-
-            <!-- Starred -->
-            <div class="stat">
-              <div class="stat-figure text-yellow-500">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-8 h-8 stroke-current">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2c-.3 0-.5.1-.7.3L2 12l9.3 9.3c.2.2.4.3.7.3s.5-.1.7-.3L22 12 12.7 2.7c-.2-.2-.4-.3-.7-.3z"></path>
-                </svg>
-              </div>
-              <div class="stat-title">Starred</div>
-              <div class="stat-value text-yellow-500">8.9K</div>
-              <div class="stat-desc">15% more than last month</div>
-            </div>
-          
-            <!-- Love -->
-            <div class="stat">
-              <div class="stat-figure text-red-500">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-8 h-8 stroke-current">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
-                </svg>
-              </div>
-              <div class="stat-title">Love</div>
-              <div class="stat-value text-red-500">25.6K</div>
-              <div class="stat-desc">21% more than last month</div>
-            </div>
-          
-            <!-- Custom Card -->
-            <div class="stats shadow">
-
-                <!-- Starred -->
-                <div class="stat bg-white p-4 rounded-md">
-                  <div class="flex items-center justify-between mb-4">
-                    <div class="flex items-center">
-                      <div class="stat-figure text-yellow-500">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-8 h-8 stroke-current">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2c-.3 0-.5.1-.7.3L2 12l9.3 9.3c.2.2.4.3.7.3s.5-.1.7-.3L22 12 12.7 2.7c-.2-.2-.4-.3-.7-.3z"></path>
-                        </svg>
+        <section class="my-24">
+          <div class="text-center">
+          <h2 class="text-5xl font-extrabold text-center">Our New Product</h2>
+          <p>Introducing our latest innovation – a sleek and powerful device designed to elevate your daily tasks <br> Experience unparalleled performance and style with our new product, setting a new standard for excellence</p>
+          </div>
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 my-10">
+            <div class="max-w-md mx-auto bg-white rounded-md shadow-md overflow-hidden flex">
+              <!-- Item Picture -->
+              <div class="w-1/3 h-40 bg-cover bg-center" style="background-image: url('/Images/5.png')"></div>
+      
+              <div class="w-2/3">
+                  <!-- Rating, Views, and Love Icons -->
+                  <div class="flex justify-end p-4">
+                      <div class="flex space-x-4">
+                          <div class="flex items-center">
+                              <span class="text-yellow-500">★★★☆☆</span>
+                          </div>
+                          <div class="flex items-center">
+                              <span class="mr-1">👁️</span> 20
+                          </div>
+                          <div class="flex items-center">
+                              <span class="mr-1">❤️</span> 200
+                          </div>
                       </div>
-                      <div class="ml-2">
-                        <div class="stat-title">Starred</div>
-                        <div class="stat-value text-yellow-500">8.9K</div>
-                      </div>
-                    </div>
-                    <div class="flex items-center">
-                      <div class="stat-figure text-red-500">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-8 h-8 stroke-current">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
-                        </svg>
-                      </div>
-                      <div class="ml-2">
-                        <div class="stat-title">Love</div>
-                        <div class="stat-value text-red-500">25.6K</div>
-                      </div>
-                    </div>
                   </div>
-              
-                  <!-- Product Card -->
-                  <div class="flex items-center">
-                    <div class="w-24 h-16 bg-gray-300 rounded-md mr-4">
-                      <!-- Product Image -->
-                      <img src="your_image_url.jpg" alt="Product Image" class="w-full h-full object-cover rounded-md">
-                    </div>
-                    <div>
-                      <!-- Product Details -->
-                      <div class="text-lg font-bold mb-2">Product Title</div>
-                      <div class="text-sm text-gray-600">A brief description of the product. Highlight its features and benefits.</div>
-                      <div class="mt-2 text-green-500">$49.99</div>
-                    </div>
+      
+                  <!-- Item Title -->
+                  <div class="p-4">
+                      <h2 class="text-xl font-semibold">World Cup Flags Footbal</h2>
                   </div>
+      
+                  <!-- Item Description -->
+                  <div class="p-4">
+                      <p class="text-gray-600">Unleash your passion for the game with our World Cup Flags Football – a celebration of international unity and sportsmanship stitched into every kick</p>
+                  </div>
+      
+                  <!-- Price and Delivery Icons -->
+                  <div class="flex justify-between items-center p-4">
+                      <div class="flex items-center">
+                          <span class="mr-1">💲</span> 22.00
+                      </div>
+                      <div class="flex items-center">
+                          <span class="mr-1">🚚</span> Delivery For Free
+                      </div>
+                  </div>
+              </div>
+          </div>
+            <div class="max-w-md mx-auto bg-white rounded-md shadow-md overflow-hidden flex">
+              <!-- Item Picture -->
+              <div class="w-1/3 h-40 bg-cover bg-center" style="background-image: url(/Images/6.png)"></div>
+      
+              <div class="w-2/3">
+                  <!-- Rating, Views, and Love Icons -->
+                  <div class="flex justify-end p-4">
+                      <div class="flex space-x-4">
+                          <div class="flex items-center">
+                              <span class="text-yellow-500">★★★☆☆</span>
+                          </div>
+                          <div class="flex items-center">
+                              <span class="mr-1">👁️</span> 20
+                          </div>
+                          <div class="flex items-center">
+                              <span class="mr-1">❤️</span> 200
+                          </div>
+                      </div>
+                  </div>
+      
+                  <!-- Item Title -->
+                  <div class="p-4">
+                      <h2 class="text-xl font-semibold">World Cup Flags Footbal</h2>
+                  </div>
+      
+                  <!-- Item Description -->
+                  <div class="p-4">
+                      <p class="text-gray-600">Unleash your passion for the game with our World Cup Flags Football – a celebration of international unity and sportsmanship stitched into every kick</p>
+                  </div>
+      
+                  <!-- Price and Delivery Icons -->
+                  <div class="flex justify-between items-center p-4">
+                      <div class="flex items-center">
+                          <span class="mr-1">💲</span> 22.00
+                      </div>
+                      <div class="flex items-center">
+                          <span class="mr-1">🚚</span> Delivery For Free
+                      </div>
+                  </div>
+              </div>
+          </div>
+            <div class="max-w-md mx-auto bg-white rounded-md shadow-md overflow-hidden flex">
+              <!-- Item Picture -->
+              <div class="w-1/3 h-40 bg-cover bg-center" style="background-image: url(/Images/7.png)"></div>
+      
+              <div class="w-2/3">
+                  <!-- Rating, Views, and Love Icons -->
+                  <div class="flex justify-end p-4">
+                      <div class="flex space-x-4">
+                          <div class="flex items-center">
+                              <span class="text-yellow-500">★★★☆☆</span>
+                          </div>
+                          <div class="flex items-center">
+                              <span class="mr-1">👁️</span> 20
+                          </div>
+                          <div class="flex items-center">
+                              <span class="mr-1">❤️</span> 200
+                          </div>
+                      </div>
+                  </div>
+      
+                  <!-- Item Title -->
+                  <div class="p-4">
+                      <h2 class="text-xl font-semibold">World Cup Flags Footbal</h2>
+                  </div>
+      
+                  <!-- Item Description -->
+                  <div class="p-4">
+                      <p class="text-gray-600">Unleash your passion for the game with our World Cup Flags Football – a celebration of international unity and sportsmanship stitched into every kick</p>
+                  </div>
+      
+                  <!-- Price and Delivery Icons -->
+                  <div class="flex justify-between items-center p-4">
+                      <div class="flex items-center">
+                          <span class="mr-1">💲</span> 22.00
+                      </div>
+                      <div class="flex items-center">
+                          <span class="mr-1">🚚</span> Delivery For Free
+                      </div>
+                  </div>
+              </div>
+          </div>
+            <div class="max-w-md mx-auto bg-white rounded-md shadow-md overflow-hidden flex">
+              <!-- Item Picture -->
+              <div class="w-1/3 h-40 bg-cover bg-center" style="background-image: url(/Images/8.png)"></div>
+      
+              <div class="w-2/3">
+                  <!-- Rating, Views, and Love Icons -->
+                  <div class="flex justify-end p-4">
+                      <div class="flex space-x-4">
+                          <div class="flex items-center">
+                              <span class="text-yellow-500">★★★☆☆</span>
+                          </div>
+                          <div class="flex items-center">
+                              <span class="mr-1">👁️</span> 20
+                          </div>
+                          <div class="flex items-center">
+                              <span class="mr-1">❤️</span> 200
+                          </div>
+                      </div>
+                  </div>
+      
+                  <!-- Item Title -->
+                  <div class="p-4">
+                      <h2 class="text-xl font-semibold">World Cup Flags Footbal</h2>
+                  </div>
+      
+                  <!-- Item Description -->
+                  <div class="p-4">
+                      <p class="text-gray-600">Unleash your passion for the game with our World Cup Flags Football – a celebration of international unity and sportsmanship stitched into every kick</p>
+                  </div>
+      
+                  <!-- Price and Delivery Icons -->
+                  <div class="flex justify-between items-center p-4">
+                      <div class="flex items-center">
+                          <span class="mr-1">💲</span> 22.00
+                      </div>
+                      <div class="flex items-center">
+                          <span class="mr-1">🚚</span> Delivery For Free
+                      </div>
+                  </div>
+              </div>
+          </div>
+            <div class="max-w-md mx-auto bg-white rounded-md shadow-md overflow-hidden flex">
+              <!-- Item Picture -->
+              <div class="w-1/3 h-40 bg-cover bg-center" style="background-image: url(/Images/9.png)"></div>
+      
+              <div class="w-2/3">
+                  <!-- Rating, Views, and Love Icons -->
+                  <div class="flex justify-end p-4">
+                      <div class="flex space-x-4">
+                          <div class="flex items-center">
+                              <span class="text-yellow-500">★★★☆☆</span>
+                          </div>
+                          <div class="flex items-center">
+                              <span class="mr-1">👁️</span> 20
+                          </div>
+                          <div class="flex items-center">
+                              <span class="mr-1">❤️</span> 200
+                          </div>
+                      </div>
+                  </div>
+      
+                  <!-- Item Title -->
+                  <div class="p-4">
+                      <h2 class="text-xl font-semibold">World Cup Flags Footbal</h2>
+                  </div>
+      
+                  <!-- Item Description -->
+                  <div class="p-4">
+                      <p class="text-gray-600">Unleash your passion for the game with our World Cup Flags Football – a celebration of international unity and sportsmanship stitched into every kick</p>
+                  </div>
+      
+                  <!-- Price and Delivery Icons -->
+                  <div class="flex justify-between items-center p-4">
+                      <div class="flex items-center">
+                          <span class="mr-1">💲</span> 22.00
+                      </div>
+                      <div class="flex items-center">
+                          <span class="mr-1">🚚</span> Delivery For Free
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="max-w-md mx-auto bg-white rounded-md shadow-md overflow-hidden flex">
+            <!-- Item Picture -->
+            <div class="w-1/3 h-40 bg-cover bg-center" style="background-image: url(/Images/10.png)"></div>
+    
+            <div class="w-2/3">
+                <!-- Rating, Views, and Love Icons -->
+                <div class="flex justify-end p-4">
+                    <div class="flex space-x-4">
+                        <div class="flex items-center">
+                            <span class="text-yellow-500">★★★☆☆</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="mr-1">👁️</span> 20
+                        </div>
+                        <div class="flex items-center">
+                            <span class="mr-1">❤️</span> 200
+                        </div>
+                    </div>
                 </div>
-              </div>
-              
-          
+    
+                <!-- Item Title -->
+                <div class="p-4">
+                    <h2 class="text-xl font-semibold">World Cup Flags Footbal</h2>
+                </div>
+    
+                <!-- Item Description -->
+                <div class="p-4">
+                    <p class="text-gray-600">Unleash your passion for the game with our World Cup Flags Football – a celebration of international unity and sportsmanship stitched into every kick</p>
+                </div>
+    
+                <!-- Price and Delivery Icons -->
+                <div class="flex justify-between items-center p-4">
+                    <div class="flex items-center">
+                        <span class="mr-1">💲</span> 22.00
+                    </div>
+                    <div class="flex items-center">
+                        <span class="mr-1">🚚</span> Delivery For FREE
+                    </div>
+                </div>
+            </div>
+        </div>
+
+          </div>
+        </section>
+      
+            
 
     </main>
     <footer>
